@@ -17,6 +17,10 @@ Wazuh-manger supports the following Operating systems:
 |-------------| ------------|
 |Red Hat Enterprise Linux 7, 8, 9| Ubuntu 16.04, 18.04, 20.04, 22.04 |
 
+Wazuh-agent supports the following Operating systems:
+
+|Linux |Windows|macOS|Solaris|AIX|HP-UX|
+|------|-------|-----|-------|---|-----|
 <h3>Minimum requirement</h3>
 
 |Component|RAM (GB)| CPU (cores)|
