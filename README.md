@@ -10,7 +10,7 @@ Well, that of course doesn't tell the full story.
 Wazuh-agents are pushed to the endpoints and these 'wazuh-agents' is the responsible for pulling telemetry to Wazuh-manager.
 Wazuh-manager is hosted locally but is connected to TheHive -a sophisticated case management system integrated with MISP and Shuffle -A platform which is responsible for alert forwarding via Slack and also for sending responsive actions to Wazuh-manager over the internet.
 
-![Github Project drawio](https://github.com/EmmyNwani/SIEM-Lab/assets/114263866/b872c923-2052-4b44-af93-57218af55b2e).
+![Github Project drawio](https://github.com/EmmyNwani/SIEM-Lab/assets/114263866/fa7ccf50-aa30-445d-92dc-1f0bdc8ecac7)
 
 <h2>Requirements:</h2>
 Wazuh-manger supports the following Operating systems:
