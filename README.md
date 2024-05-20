@@ -25,16 +25,15 @@ Wazuh-agent supports the following Operating systems:
 |------|-------|-----|-------|---|-----|
 <h3>Minimum requirement</h3>
 
-|Component|RAM (GB)| CPU (cores)|
-|-------------|---|---|
-|Wazuh server | 2 | 2 |
+|Component|RAM | CPU (cores)|
+|-------------|-------|---|
+|Wazuh server | 2 GB  | 2 |
+|Wazuh agent  | 35 MB | 1 |
+
 
 <h3>Recommended</h3>
 
-|Component|RAM (GB)| CPU (cores)|
+|Component|RAM| CPU (cores)|
 |-------------|---|---|
-|Wazuh server | 4 | 8 |
-
-
-| Linux| Windows|
-|-------|-------|
+|Wazuh server | 4 GB | 8 |
+|Wazuh agent  | >35 MB | 1 |
