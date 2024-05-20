@@ -9,3 +9,26 @@ This project aims at securing assets in a production environment that communicat
 Well, that of course doesn't tell the full story. 
 Wazuh-agents are pushed to the endpoints and these 'wazuh-agents' is the responsible for pulling telemetry to Wazuh-manager.
 Wazuh-manager is hosted locally but is connected to TheHive -a sophisticated case management system integrated with MISP and Shuffle -A platform which is responsible for alert forwarding via Slack and also for sending responsive actions to Wazuh-manager over the internet.
+
+<h2>Requirements:</h2>
+Wazuh-manger supports the following Operating systems:
+
+|Amazon Linux 2| CentOS 7, 8|
+|-------------| ------------|
+|Red Hat Enterprise Linux 7, 8, 9| Ubuntu 16.04, 18.04, 20.04, 22.04 |
+
+<h3>Minimum requirement</h3>
+
+|Component|RAM (GB)| CPU (cores)|
+|-------------|---|---|
+|Wazuh server | 2 | 2 |
+
+<h3>Recommended</h3>
+
+|Component|RAM (GB)| CPU (cores)|
+|-------------|---|---|
+|Wazuh server | 4 | 8 |
+
+
+| Linux| Windows|
+|-------|-------|
