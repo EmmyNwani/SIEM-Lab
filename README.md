@@ -8,10 +8,11 @@ Sit tight!
 This project aims at securing assets in a production environment that communicates over the internet. It monitors assets and pull logs from them in real-time. 
 Well, that of course doesn't tell the full story. 
 Wazuh-agents are pushed to the endpoints and these 'wazuh-agents' are responsible for pulling telemetry to Wazuh-manager.
-Wazuh-manager is hosted locally but is connected to TheHive -a versatile case management system integrated with MISP and Shuffle -A platform which is responsible for alert forwarding via Slack and also for sending responsive actions to Wazuh-manager over the internet.
+Wazuh-manager is hosted locally and is connected to TheHive -a versatile case management system, inbuilt in it is MISP- a threat intelligence platform (CTI) and Cortex -a platform for active response and intelligence gathering.
 
 ![Github Project drawio](https://github.com/EmmyNwani/SIEM-Lab/assets/114263866/fa7ccf50-aa30-445d-92dc-1f0bdc8ecac7)
 
+# Wazuh
 <h2>Requirements:</h2>
 Wazuh-manger supports the following Operating systems:
 
@@ -37,3 +38,5 @@ Wazuh-agent supports the following Operating systems:
 |-------------|---|---|
 |Wazuh server | 4 GB | 8 |
 |Wazuh agent  | >35 MB | 1 |
+
+# TheHive
