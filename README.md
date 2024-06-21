@@ -6,8 +6,11 @@ An integration of some of the most powerful open-source tools to work together i
 Sit tight!
 <h1>How It Works 💻</h1>
 This project aims at securing assets in a production environment that communicates over the internet. It monitors assets and pull logs from them in real-time. 
+
 Well, that of course doesn't tell the full story. 
+
 Wazuh-agents are pushed to the endpoints and these 'wazuh-agents' are responsible for pulling telemetry to Wazuh-manager.
+
 Wazuh-manager is hosted locally and is connected to TheHive -a versatile case management system, inbuilt in it is MISP- a threat intelligence platform (CTI) and Cortex -a platform for active response and intelligence gathering.
 
 ![Github Project drawio](https://github.com/EmmyNwani/SIEM-Lab/assets/114263866/fa7ccf50-aa30-445d-92dc-1f0bdc8ecac7)
@@ -31,7 +34,6 @@ Wazuh-agent supports the following Operating systems:
 |Wazuh server | 2 GB  | 2 |
 |Wazuh agent  | 35 MB | 1 |
 
-
 <h3>Recommended</h3>
 
 |Component|RAM| CPU (cores)|
@@ -39,4 +41,25 @@ Wazuh-agent supports the following Operating systems:
 |Wazuh server | 4 GB | 8 |
 |Wazuh agent  | >35 MB | 1 |
 
+The fastest way to run this installation is by using the installation assistant. 
+In your Ubuntu Terminal, enter:
+
+`curl -sO https://packages.wazuh.com/4.8/wazuh-install.sh && sudo bash ./wazuh-install.sh -a`
+
+Or, you can [Check out the wazuh documentation](https://documentation.wazuh.com/current/quickstart.html) page.
+
 # TheHive
+For thehive to run optimally and efficiently, some other programs will be have to be installed along with it. For this installation, we will use docker. 
+
+Use this [docker-compose](https://github.com/EmmyNwani/SIEM-Lab/blob/main/docker-compose.yml) file to install thehive.
+
+Create a docker-compose.yml file and paste the contents of the [dockerfile](https://github.com/EmmyNwani/SIEM-Lab/blob/main/docker-compose.yml) into it.
+
+Navigate to the path where the docker-compose.yml file is located and run a `docker-compose up -d` command to run the installation on docker.
+
+<h2>Requirements:</h2>
+
+|RAM| Storage|
+|---|--------|
+|4GB|80GB|
+
