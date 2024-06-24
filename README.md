@@ -69,8 +69,10 @@ Navigate to the web interface of [Cortex](https://docs.thehive-project.org/corte
 
 # Connecting TheHive and Wazuh 
 
-For thehive and wazuh to work across board, 
-wazuh's `ossec.conf` file will be edited and theHive's API and IP added to the `ossec.conf` file.
+For thehive and wazuh to work across board, two things must be done.
+
+First, the custom python thive `custom-w2thive` integration must be downloaded and configured appropriately.
+Secondly, wazuh's `ossec.conf` file will be edited and theHive's API and IP added to the `ossec.conf` file.
 Follow the steps in [wazuh's page](https://wazuh.com/blog/using-wazuh-and-thehive-for-threat-protection-and-incident-response/) and be sure to follow the same indentation in the `ossec.conf` file. 
 
 For reference, The [w2thive](https://github.com/EmmyNwani/SIEM-Lab/blob/main/custom-w2thive) and [w2thive.py](https://github.com/EmmyNwani/SIEM-Lab/blob/main/custom-w2thive.py) files can be found in this piece.
