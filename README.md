@@ -13,7 +13,7 @@ Wazuh-agents are pushed to the endpoints and these 'wazuh-agents' are responsibl
 
 Wazuh-manager is hosted locally and is connected to TheHive -a versatile case management system, inbuilt in it is MISP- a threat intelligence platform (CTI) and Cortex -a platform for active response and intelligence gathering.
 
-![image](https://github.com/EmmyNwani/SIEM-Lab/assets/114263866/3c51b4bd-6f9a-4cda-aa5f-fa83fd955155)
+![image](https://github.com/EmmyNwani/SIEM-Lab/assets/114263866/8f095928-ab2a-42d6-90b0-caa0bc89d9ef)
 
 # Wazuh
 <h2>Requirements:</h2>
