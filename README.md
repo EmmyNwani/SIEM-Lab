@@ -75,3 +75,15 @@ Follow the steps in [wazuh's page](https://wazuh.com/blog/using-wazuh-and-thehiv
 
 For reference, The [w2thive](https://github.com/EmmyNwani/SIEM-Lab/blob/main/custom-w2thive) and [w2thive.py](https://github.com/EmmyNwani/SIEM-Lab/blob/main/custom-w2thive.py) files can be found in this piece.
 
+# Reference and Further Research
+To learn more about Wazuh, thehive, Cortex, MISP or to troubleshoot your installation, visit the following pages.
+
+-https://thehive-project.org/# 
+
+-https://docs.strangebee.com/
+
+-https://github.com/thehive-project/Cortex/
+
+-https://documentation.wazuh.com/current/quickstart.html
+
+-https://wazuh.com/blog/using-wazuh-and-thehive-for-threat-protection-and-incident-response/
