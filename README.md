@@ -50,16 +50,28 @@ Or, you can [Check out the wazuh documentation](https://documentation.wazuh.com/
 
 # TheHive
 For thehive to run optimally and efficiently, some other programs will be have to be installed along with it. For this installation, we will use docker. 
+TheHive has [Cortex](https://docs.thehive-project.org/cortex/) and [MISP](https://www.misp-project.org/) integrated into it by default.
 
-Use this [docker-compose](https://github.com/EmmyNwani/SIEM-Lab/blob/main/docker-compose.yml) file to install thehive.
+Use this [docker-compose](https://github.com/EmmyNwani/SIEM-Lab/blob/main/docker-compose.yml) file to install thehive and its dependent applications.
 
 Create a docker-compose.yml file and paste the contents of the [dockerfile](https://github.com/EmmyNwani/SIEM-Lab/blob/main/docker-compose.yml) into it.
 
 Navigate to the path where the docker-compose.yml file is located and run a `docker-compose up -d` command to run the installation on docker.
+
+After you are done installing the [docker-compose](https://github.com/EmmyNwani/SIEM-Lab/blob/main/docker-compose.yml) file, you will need to set them up seperately via their web interfaces. 
+Navigate to the web interface of [Cortex](https://docs.thehive-project.org/cortex/) and [MISP](https://www.misp-project.org/) to get your MISP and Cortex servers up and ready to be integrated with thehive by creating accounts and organizations on the platforms.
 
 <h2>Requirements:</h2>
 
 |RAM| Storage|
 |---|--------|
 |4GB|80GB|
+
+# Connecting TheHive and Wazuh 
+
+For thehive and wazuh to work across board, 
+wazuh's `ossec.conf` file will be edited and theHive's API and IP added to the `ossec.conf` file.
+Follow the steps in [wazuh's page](https://wazuh.com/blog/using-wazuh-and-thehive-for-threat-protection-and-incident-response/) and be sure to follow the same indentation in the `ossec.conf` file. 
+
+For reference, The [w2thive](https://github.com/EmmyNwani/SIEM-Lab/blob/main/custom-w2thive) and [w2thive.py](https://github.com/EmmyNwani/SIEM-Lab/blob/main/custom-w2thive.py) files can be found in this piece.
 
