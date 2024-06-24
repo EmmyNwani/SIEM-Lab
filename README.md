@@ -78,12 +78,12 @@ For reference, The [w2thive](https://github.com/EmmyNwani/SIEM-Lab/blob/main/cus
 # Reference and Further Research
 To learn more about Wazuh, thehive, Cortex, MISP or to troubleshoot your installation, visit the following pages.
 
--https://thehive-project.org/# 
+https://thehive-project.org/# 
 
--https://docs.strangebee.com/
+https://docs.strangebee.com/
 
--https://github.com/thehive-project/Cortex/
+https://github.com/thehive-project/Cortex/
 
--https://documentation.wazuh.com/current/quickstart.html
+https://documentation.wazuh.com/current/quickstart.html
 
--https://wazuh.com/blog/using-wazuh-and-thehive-for-threat-protection-and-incident-response/
+https://wazuh.com/blog/using-wazuh-and-thehive-for-threat-protection-and-incident-response/
