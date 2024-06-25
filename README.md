@@ -11,7 +11,7 @@ Well, that of course doesn't tell the full story.
 
 Wazuh-agents are pushed to the endpoints and these 'wazuh-agents' are responsible for pulling telemetry to Wazuh-manager.
 
-Wazuh-manager is hosted locally and is connected to TheHive -a versatile case management system, inbuilt in it is MISP- a threat intelligence platform (CTI) and Cortex -a platform for active response and intelligence gathering.
+Wazuh-manager is hosted locally and is connected to TheHive -a versatile case management system, inbuilt in it is MISP- a cyber threat intelligence (CTI) platform and Cortex -a platform for active response and intelligence gathering.
 
 ![image](https://github.com/EmmyNwani/SIEM-Lab/assets/114263866/8f095928-ab2a-42d6-90b0-caa0bc89d9ef)
 
@@ -42,14 +42,14 @@ Wazuh-agent supports the following Operating systems:
 |Wazuh agent  | >35 MB | 1 |
 
 The fastest way to run this installation is by using the installation assistant. 
-In your Ubuntu Terminal, enter:
+In your Terminal, enter:
 
 `curl -sO https://packages.wazuh.com/4.8/wazuh-install.sh && sudo bash ./wazuh-install.sh -a`
 
 Or, you can [Check out the wazuh documentation](https://documentation.wazuh.com/current/quickstart.html) page.
 
 # TheHive
-For thehive to run optimally and efficiently, some other programs will be have to be installed along with it. For this installation, we will use docker. 
+For thehive to run optimally and efficiently, some other programs will have to be installed along with it. For this installation, we will use docker. 
 TheHive has [Cortex](https://docs.thehive-project.org/cortex/) and [MISP](https://www.misp-project.org/) integrated into it by default.
 
 Use this [docker-compose](https://github.com/EmmyNwani/SIEM-Lab/blob/main/docker-compose.yml) file to install thehive and its dependent applications.
