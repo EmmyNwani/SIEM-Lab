@@ -1,7 +1,7 @@
 # SIEM-Lab🚨
 Looking to build a sophisticated, free SIEM lab with SOAR integrations? Search no further. 
 
-An integration of some of the most powerful open-source tools to work together in your production environment to automate the generation of security alerts, slack messaging, active incident response, triage, and overall asset monitoring.
+An integration of some of the most powerful open-source tools to work together in your production environment to automate the generation of security alerts, instant messaging, active incident response, triage, and overall asset monitoring.
 
 Sit tight!
 <h1>How It Works 💻</h1>
